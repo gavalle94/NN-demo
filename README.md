@@ -19,6 +19,9 @@ A multi-layers feedforward neural network, with only one hidden layer (whose siz
 ### Training algorithms
 The gradient descent variants are examinated and compared each other, in different contexts. We want to see what happens when changing things like the learning rate or the number of hidden neurons.
 
+### Loss functions
+Both the Mean Squared Error (MSE) and the Cross-Entropy loss functions have been used and compared.
+
 ### The PyTorch attempt
 You will see that there is an attempt to convert the entire work in PyTorch code: anyway, the final result is not great. It wasan extra activity, meant as an opportunity to explore the functionalities offered by already available Python libraries.
 
